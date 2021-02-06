@@ -10,5 +10,5 @@ with this intrrupt_signal.ko file will be generated.
 `sudo rmmod intrrupt_signal`
 * To build user code run
 `export CC=/opt/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf- `
-`${CC}gcc user.c -o user
+`${CC}gcc user.c -o user`
 
