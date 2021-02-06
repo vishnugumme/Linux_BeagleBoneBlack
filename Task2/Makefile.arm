@@ -1,0 +1,6 @@
+obj-m += interrupt_signal.o
+all:
+	make -C ~/bbb_build/bb-kernel/KERNEL M=$(PWD) modules
+
+clean:
+	make -C ~/bbb_build/bb-kernel/KERNEL M=$(PWD) clean
