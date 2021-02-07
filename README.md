@@ -4,7 +4,7 @@ The project aims to extract the timing parameters that shows the real-time respo
 To find information about the project at [Shukra DESE link](http://shukra.cedt.iisc.ernet.in/edwiki/Real-time_response_of_the_Embedded_Linux_system_on_BeagleBone_Black_Wireless).
 ## Implementation
 1. Setup the software part of BBB , follow [link](http://shukra.dese.iisc.ac.in/edwiki/EmSys:Embedded_Systems_Design_II_Embedded_Linux).
-2. Whenever to tranfer cross compiled files to BBB, we can use SSH utility or network mount folder using sshfs utility.
+2. Whenever to transfer cross compiled files to BBB, we can use SSH utility or network mount folder using sshfs utility.
 ### Task2
 It is the total time to finish the interrupt service part and user application service part and giving response back to the external event.
 Follow same steps as Task1 excepts following step numbers.
