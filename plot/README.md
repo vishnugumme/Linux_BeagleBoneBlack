@@ -6,7 +6,7 @@
 # Connection b/w Tiva Board to gtkterm
   1. Open gtkterm
   2. Open Port tty/ACM0 with 115200-8-N-1
-  3. Direct log to file realtime.txt.
+  3. Direct data to file realtime.txt.
 # To Start the graph 
 `$ gnuplot` : start gnuplot<br>
 `load(realtime.p)`: start the script running<br>
