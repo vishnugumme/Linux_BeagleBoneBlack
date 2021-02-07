@@ -11,9 +11,9 @@ Follow the following steps to observe live response time graph.
      `sudo insmod interrupt_signal.ko`
   * To remove the inserted module on BBB
      `sudo rmmod intrrupt_signal`
-  * To build user code run
-     `export CC=/opt/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf- `<br>
-     `${CC}gcc user.c -o user`
+  * To build user code run<br>
+     1. `export CC=/opt/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf- `<br>
+     2. `${CC}gcc user.c -o user`<br>
 
   Cross build the module,user code, transfer both to BBB, dynamically load into the kernel and run `sudo ./user`.<br>
   
